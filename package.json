@@ -1,46 +1,46 @@
 {
-  "name": "react-media-recorder-2",
-  "version": "1.6.9",
-  "description": "A React component based on MediaRecorder() API to record audio/video streams",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc && jsmin -o ./lib/index.js ./lib/index.js",
-    "prepare": "npm run build"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/giridharangm/react-media-recorder.git"
-  },
-  "keywords": [
-    "react",
-    "recorder",
-    "voice recording",
-    "video recording",
-    "media recording",
-    "getusermedia",
-    "MediaRecorder",
-    "getDisplayMedia",
-    "screen recorder",
-    "video recorder",
-    "audio recorder"
-  ],
-  "author": "Giridharan GM",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/giridharangm/react-media-recorder/issues"
-  },
-  "homepage": "https://github.com/giridharangm/react-media-recorder#readme",
-  "devDependencies": {
-    "@types/react": "^16.9.11",
-    "jsmin": "^1.0.1",
-    "typescript": "^4.4.3"
-  },
-  "types": "./lib/index.d.ts",
-  "dependencies": {
-    "extendable-media-recorder": "^6.6.5",
-    "extendable-media-recorder-wav-encoder": "^7.0.68"
-  }
+	"name": "react-media-recorder-2",
+	"version": "1.6.10",
+	"description": "A React component based on MediaRecorder() API to record audio/video streams",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc && jsmin -o ./lib/index.js ./lib/index.js",
+		"prepare": "npm run build"
+	},
+	"files": [
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/giridharangm/react-media-recorder.git"
+	},
+	"keywords": [
+		"react",
+		"recorder",
+		"voice recording",
+		"video recording",
+		"media recording",
+		"getusermedia",
+		"MediaRecorder",
+		"getDisplayMedia",
+		"screen recorder",
+		"video recorder",
+		"audio recorder"
+	],
+	"author": "Giridharan GM",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/giridharangm/react-media-recorder/issues"
+	},
+	"homepage": "https://github.com/giridharangm/react-media-recorder#readme",
+	"devDependencies": {
+		"@types/react": "^18.0.28",
+		"jsmin": "^1.0.1",
+		"typescript": "^5.0.2"
+	},
+	"types": "./lib/index.d.ts",
+	"dependencies": {
+		"extendable-media-recorder": "^7.1.9",
+		"extendable-media-recorder-wav-encoder": "^7.0.85"
+	}
 }
