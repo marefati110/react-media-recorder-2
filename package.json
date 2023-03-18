@@ -1,6 +1,6 @@
 {
 	"name": "react-media-recorder-2",
-	"version": "1.6.12",
+	"version": "1.6.13",
 	"description": "A React component based on MediaRecorder() API to record audio/video streams",
 	"main": "index.js",
 	"scripts": {
@@ -42,5 +42,5 @@
 	"dependencies": {
 		"extendable-media-recorder": "^7.1.9",
 		"extendable-media-recorder-wav-encoder": "^7.0.85"
-	},
+	}
 }
