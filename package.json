@@ -41,5 +41,6 @@
 	"dependencies": {
 		"extendable-media-recorder": "^7.1.9",
 		"extendable-media-recorder-wav-encoder": "^7.0.85"
-	}
+	},
+	"version": "0.0.0"
 }
