@@ -89,12 +89,17 @@ export function useReactMediaRecorder({
   const [init, setInit] = useState(false);
 
   useEffect(() => {
+    // avoid re-registering the encoder
     if (init) {
       return;
     }
 
     const setup = async () => {
-      await register(await connect());
+      try {
+        await register(await connect());
+      } catch (e) {
+        //
+      }
     };
 
     setup();
